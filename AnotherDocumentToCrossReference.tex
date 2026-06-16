@@ -1,17 +1,8 @@
-\DocumentMetadata{
-	testphase={phase-III, math},
-	tagging=on,
-	tagging-setup={math/setup=mathml-SE},
-	pdfstandard=ua-2,
-	pdfversion=2.0,
-	lang=en
-}
+\input{LatexPreamble/preamble.tex}
 
-\documentclass[11 pt]{article}
-\usepackage[a4paper, top=15mm, bottom=15mm, left=20mm, right=20mm, footskip=8mm]{geometry}
-\usepackage{hyperref}
 \usepackage{float}
 \usepackage{tikz}
+\usepackage{lipsum}
 \usetikzlibrary{calc}
 
 \title{Another Document To Cross Reference}
@@ -45,6 +36,10 @@ This is yet another near-empty section, this time included to show that the subs
 
 \section{Example Section The Third}
 \label{sec:ExampleSectionTheThird}
+
+Here is a lot of filler text to push the figure onto the next page. This is to demonstrate that page number referencing also works.
+
+\lipsum[1-4]
 
 \subsection{Example Subsection}
 \label{subsec:ExampleSubsection}
